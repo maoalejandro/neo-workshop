@@ -1,23 +1,25 @@
 #!/bin/bash
 
-# Solicita el token de Azure al usuario sin mostrarlo en pantalla
-read -s -p "🔐 Ingresa tu Azure DevOps token: " AZURETOKEN
+# Prompt the user for the Azure DevOps token without showing it on the screen
+read -s -p "🔐 Enter your Azure DevOps token: " AZURETOKEN
 echo
 
-# Verifica que se ingresó algo
+# Check that something was entered
 if [ -z "$AZURETOKEN" ]; then
-  echo "❌ No ingresaste un token. Abortando."
+  echo "❌ You didn't enter a token. Aborting."
   exit 1
 fi
 
-# Crea y activa el entorno virtual
+# Create and activate the virtual environment
 python3.12 -m venv .venv
 source .venv/bin/activate
 
-# Instala el paquete usando el token
+# Install the package using the token
 pip install --extra-index-url "https://gxazure:${AZURETOKEN}@pkgs.dev.azure.com/genexuslabs/gxeai-agents/_packaging/coda-neo-prod/pypi/simple/" neo-ai
 
+# Add a shortcut alias to activate the virtual environment and run 'neo'
 echo 'alias neo="source /workspaces/neo-workshop/.venv/bin/activate && neo"' >> ~/.bashrc
 source ~/.bashrc
 
+# Run the 'neo' command
 neo
