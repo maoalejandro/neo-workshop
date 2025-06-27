@@ -1,7 +1,19 @@
 # neo-workshop
 
-## 🚀 Lanza tu propio entorno en Codespaces para el workshop con NEO
+## 🚀 Launch your own environment in Codespaces for the NEO workshop
 
-Haz clic aquí para crear tu propia instancia para el workshop en la nube (con tu cuenta de GitHub):
+Click below to create your own instance of this workshop environment in the cloud (with your GitHub account):
 
-[![Abrir en Codespaces](https://github.com/codespaces/badge.svg)](https://github.com/codespaces/new?hide_repo_select=true&repo=maoalejandro%2Fneo-workshop&ref=main)
+[![Open in Codespaces](https://github.com/codespaces/badge.svg)](https://github.com/codespaces/new?hide_repo_select=true&repo=maoalejandro%2Fneo-workshop&ref=main)
+
+---
+
+## 🛠️ Setup Instructions
+
+Once your Codespaces environment is ready, follow these steps to configure the project:
+
+1. Open the integrated terminal in your Codespace.
+2. Run the following command to set up the environment:
+
+```bash
+./setup.sh
