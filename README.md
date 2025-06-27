@@ -17,8 +17,15 @@ Once your Codespaces environment is ready, follow these steps to configure the p
 
 ```bash
 bash setup.sh
+```
 
+## 🤖 Neo Setup
 
-## 🛠️ Neo Setup
+- **GEAI Base URL**, put **https://api.agents.globant.com**
+- **GEAI API Key**, put the key received by email with the subject **API Keys for Agentic Software Development**
+- **Azure Access Token**, put the token received by email with the subject **[Neo] - Your Tokens**
 
+In the case that you need to close the session, execute the command `/q`.
+
+To reconfigure the Neo Key values, reopen using the command `neo --reconfigure` 
 
