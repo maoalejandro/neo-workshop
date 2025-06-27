@@ -16,4 +16,9 @@ Once your Codespaces environment is ready, follow these steps to configure the p
 2. Run the following command to set up the environment:
 
 ```bash
-./setup.sh
+bash setup.sh
+
+
+## 🛠️ Neo Setup
+
+
