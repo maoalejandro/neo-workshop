@@ -6,6 +6,13 @@ Click below to create your own instance of this workshop environment in the clou
 
 [![Open in Codespaces](https://github.com/codespaces/badge.svg)](https://github.com/codespaces/new?hide_repo_select=true&repo=maoalejandro%2Fneo-workshop&ref=main)
 
+### Environment Initialization ###
+GitHub Codespaces starts loading a preconfigured environment after clicking the link. Once it's ready, a VS Code-like interface appears in the browser with a terminal and editor.
+
+### Project Structure Overview ###
+
+You can see folders like workshop, scripts, README.md, and configuration files like .devcontainer.
+
 ---
 
 ## 🛠️ Setup Instructions
