@@ -2,7 +2,7 @@
 
 ## 🚀 Launch your own environment in Codespaces for the NEO workshop
 
-Click below to create your own instance of this workshop environment in the cloud (with your GitHub account):
+Click below to **create your own instance** of this workshop environment in the cloud (with your GitHub account):
 
 [![Open in Codespaces](https://github.com/codespaces/badge.svg)](https://github.com/codespaces/new?hide_repo_select=true&repo=maoalejandro%2Fneo-workshop&ref=main)
 
@@ -35,4 +35,11 @@ bash setup.sh
 In the case that you need to close the session, execute the command `/q`.
 
 To reconfigure the Neo Key values, reopen using the command `neo --reconfigure` 
+
+## 🤖 CLINE
+
+In the codespace, the **CLINE** plug-in is already configured to be used in the workshop. In the left toolbar, the **CLINE** icon is available to interact with the agent, setting up the API Key properly.
+
+<img width="1796" alt="Screenshot 2025-07-02 at 4 56 00 PM" src="https://github.com/user-attachments/assets/b94a625e-6cc0-42b0-aeed-853512c898d5" />
+
 
