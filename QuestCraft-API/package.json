@@ -1,0 +1,31 @@
+{
+  "name": "questcraft-api",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "start": "node dist/index.js",
+    "dev": "nodemon --exec ts-node src/index.ts",
+    "build": "tsc",
+    "test": "playwright test",
+    "lint": "tsc --noEmit"
+  },
+  "keywords": ["api", "games", "quests", "rpg"],
+  "author": "",
+  "license": "ISC",
+  "description": "A backend service for a fantasy RPG that manages player quests and achievements",
+  "dependencies": {
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.52.0",
+    "@types/express": "^5.0.2",
+    "@types/node": "^22.15.30",
+    "nodemon": "^3.1.10",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
+  }
+}
