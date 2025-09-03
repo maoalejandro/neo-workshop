@@ -42,4 +42,4 @@ In the codespace, the **CLINE** plug-in is already configured to be used in the 
 
 <img width="1796" alt="Screenshot 2025-07-02 at 4 56 00 PM" src="https://github.com/user-attachments/assets/b94a625e-6cc0-42b0-aeed-853512c898d5" />
 
-For more details about installations, reach out to this (link)[https://docs.google.com/document/d/1Bglz9_2LP20bsihR4j2qu_ZMG84FZpT6KbWAePnsIgI/edit?tab=t.0#heading=h.ohtk0vy1lows]
+For more details about **Cline** installation, reach out to this [link](https://docs.google.com/document/d/1Bglz9_2LP20bsihR4j2qu_ZMG84FZpT6KbWAePnsIgI/edit?tab=t.0#heading=h.ohtk0vy1lows)
