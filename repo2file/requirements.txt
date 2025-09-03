@@ -1,0 +1,6 @@
+pybars3
+pyperclip
+tiktoken
+PyGithub
+python-dotenv
+requests
